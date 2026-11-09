@@ -16,9 +16,13 @@ EMBEDDING_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
 # Retrieval
 TOP_K = 4
 
-# LLM (Gemini). Check the current model name in Google AI Studio
-LLM_MODEL = "gemini-2.5-flash"
+# LLM (Gemini)
+LLM_MODEL = "gemini-3.5-flash-lite"
 LLM_TEMPERATURE = 0.0
+
+# If the closest chunk is farther than this (cosine distance), skip the LLM
+# and answer "not enough information". Tune it using your tests.
+NO_EVIDENCE_DISTANCE = 0.65
 
 # Chroma
 COLLECTION_NAME = "studymate"

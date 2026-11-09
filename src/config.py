@@ -17,8 +17,10 @@ EMBEDDING_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
 TOP_K = 4
 
 # LLM (Gemini). Check the current model name in Google AI Studio
-LLM_MODEL = "gemini-2.5-flash"
+LLM_MODEL = "gemini-3.8-flash"
 LLM_TEMPERATURE = 0.0
 
 # Chroma
 COLLECTION_NAME = "studymate"
+
+NO_EVIDENCE_DISTANCE = 0.65

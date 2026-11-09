@@ -4,9 +4,10 @@ from typing import Any, Dict
 from src.generator import generate_answer
 from src.prompts import NO_EVIDENCE_MESSAGE
 from src.retriever import retrieve
+from src.config import TOP_K
 
 
-def ask(question: str) -> Dict[str, Any]:
+def ask(question: str , k: int = TOP_K) -> Dict[str, Any]:
     """Answer a student question from the lecture materials.
 
     Returns a dict with:
@@ -25,7 +26,7 @@ def ask(question: str) -> Dict[str, Any]:
         }
 
     try:
-        results, r_time = retrieve(question)
+        results, r_time = retrieve(question ,  k=k)
     except Exception as e:
         return {
             "answer": f"[Error] Retrieval failed: {e}",

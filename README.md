@@ -15,7 +15,7 @@ Course: Computers and Society (Dr. Sherif M. Tawfik)
 Document flow: lecture files -> loader -> chunker -> embeddings -> Chroma
 Question flow: question -> embedding -> top-k search -> prompt -> Gemini -> answer + sources
 
-![Architecture](docs/architecture.png)
+![StudyMate AI architecture](docs/architecture.png)
 
 ## Project structure
 ```
@@ -47,7 +47,7 @@ data/       lecture files, one folder per subject (not in git)
    ```
    GOOGLE_API_KEY=your_key_here
    ```
-5. Put lecture files (`.pdf`, `.pptx`, `.txt`) in `data/<subject>/`, for example:
+5. Put lecture files (`.pdf`, `.txt`) in `data/<subject>/`, for example:
    ```
    data/computer_science/
    data/ai/
@@ -92,4 +92,8 @@ Answer and sources: see `docs/screenshots/`.
 - Requires an internet connection for the LLM call.
 
 ## Team
-Add member names and roles here.
+- Salma Alaa-Eldin
+- Kareem Omar
+- Maher Magdy 
+- Sama Samy
+- Abdelaziz Weal

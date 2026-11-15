@@ -1,6 +1,18 @@
 question,expected_answer,source_file,answerable
-What is digital transformation?,The process of using digital technologies to create new or modify existing business processes culture and customer experiences to meet changing business and market requirements,digital_transformation.pdf,yes
-اكتب سؤال تاني من محاضراتك,الإجابة المتوقعة من المحاضرة,اسم_الملف.pdf,yes
-What is the capital of France?,,,no
+What is digital transformation?,"The process of using digital technologies to create new or modify existing business processes, culture and customer experiences to meet changing business and market requirements",digital_transformation.pdf,yes
+what is digitization?,Digitization is the move from analog to digital,digital_transformation.pdf,yes
+what is digitalization?,Digitalization is using digital data to simplify how you work,digital_transformation.pdf,yes
 Who won the 2018 FIFA World Cup?,,,no
+What is a Neural Network?,"A neural network is a machine designed to model how the human brain works. It consists of connected processing units called neurons",ai-Lecture_2.pdf,yes
+What is a Perceptron?,"A perceptron is the simplest type of neural network. It receives inputs, multiplies them by weights, adds a bias, and produces an output based on a threshold",ai-Lecture_2.pdf,yes
+Why can't a single-layer perceptron learn XOR?,"Because XOR is a non-linearly separable problem, and a single-layer perceptron can only learn linearly separable patterns",ai-Lecture_2.pdf,yes
 How do I bake a chocolate cake?,,,no
+What is a CNN?,CNN is a type of deep feedforward neural network mainly used to analyze visual images,ai-Lecture_3 .pdf,yes
+What should you do if stakeholders do not sign off on the requirements?,"Move forward cautiously, document the missing sign-off in the risk list, and follow up with those stakeholders as part of risk management",Ch_ 2_ Requirements_ from_ the_ customer_s_ perspective.pdf,yes
+Do agile projects include a formal sign-off on requirements?,"No. Agile projects keep requirements as user stories in a product backlog, and the product owner and team agree on the stories for the next iteration. The full set of functionality is identified over time",Ch_ 2_ Requirements_ from_ the_ customer_s_ perspective.pdf,yes
+What are the four subdisciplines of requirements development?,"Elicitation, analysis, specification, and validation",Ch_1_The_essential_software_requirement.pdf,yes
+What is a functional requirement?,A description of a behavior that a system will exhibit under specific conditions.,Ch_1_The_essential_software_requirement.pdf,yes
+What is a quality attribute?,A kind of nonfunctional requirement that describes a service or performance characteristic of a product.,Ch_1_The_essential_software_requirement.pdf,yes
+What are the common requirements risks?,"Insufficient user involvement, inaccurate planning, ambiguous requirements, gold plating, and overlooked stakeholders.",Ch_1_The_essential_software_requirement.pdf,yes
+What activities does requirements management include?,"Defining the requirements baseline, evaluating the impact of proposed changes, keeping project plans current, negotiating new commitments, defining relationships between requirements, tracing requirements to designs, code, and tests, and tracking requirements status.",Ch_1_The_essential_software_requirement.pdf,yes
+What is the boiling point of water at sea level?,,,no
